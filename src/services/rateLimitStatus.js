@@ -4,13 +4,6 @@ import status from 'http-status';
 import request from 'request-promise';
 import dotenv from 'dotenv';
 
-dotenv.config();
-
-const CONSUMERKEY = process.env.consumer_key;
-const CONSUMERSECRET = process.env.consumer_secret;
-const TOKENKEY = process.env.access_token;
-const TOKENSECRET = process.env.token_secret;
-
 const version = '1.1';
 const endpoint = 'application/rate_limit_status.json';
 
